@@ -6,10 +6,10 @@ stepsCompleted:
   - 4
   - 5
 inputDocuments:
-  - docs/market-list-website-prd.md
-  - docs/market-list-ui-wireframes.md
-  - _bmad-output/planning-artifacts/ux-design-specification.md
-  - _bmad-output/planning-artifacts/architecture.md
+  - _bmad-output/planning-artifacts/prd/prd.md
+  - _bmad-output/planning-artifacts/wireframes/market-list-ui-wireframes.md
+  - _bmad-output/planning-artifacts/ux-design-specification/ux-design-specification.md
+  - _bmad-output/planning-artifacts/architecture/architecture.md
 date: 2026-03-06
 author: Micael Fone
 ---

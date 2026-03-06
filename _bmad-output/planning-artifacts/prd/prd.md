@@ -2,10 +2,10 @@
 stepsCompleted:
   - 1
 inputDocuments:
-  - docs/market-list-website-prd.md
-  - docs/market-list-ui-wireframes.md
-  - _bmad-output/planning-artifacts/ux-design-specification.md
-  - _bmad-output/planning-artifacts/architecture.md
+  - _bmad-output/planning-artifacts/prd/prd.md
+  - _bmad-output/planning-artifacts/wireframes/market-list-ui-wireframes.md
+  - _bmad-output/planning-artifacts/ux-design-specification/ux-design-specification.md
+  - _bmad-output/planning-artifacts/architecture/architecture.md
 workflowType: 'prd'
 classification:
   domain: general

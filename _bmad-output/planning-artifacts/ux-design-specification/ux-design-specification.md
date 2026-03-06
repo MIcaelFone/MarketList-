@@ -4,7 +4,7 @@ stepsCompleted:
   - 2
   - 3
 inputDocuments:
-  - docs/market-list-website-prd.md
+  - _bmad-output/planning-artifacts/prd/prd.md
   - docs/market-list-website-prd-validation-report.md
   - docs/edit-prd-design.md
 ---

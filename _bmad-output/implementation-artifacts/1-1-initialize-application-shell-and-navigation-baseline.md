@@ -1,6 +1,6 @@
 ﻿# Story 1.1: Initialize Application Shell and Navigation Baseline
 
-Status: ready-for-dev
+Status: review
 
 ## Story
 
@@ -21,10 +21,10 @@ So that I can start using the product without layout or navigation issues.
 
 ## Tasks / Subtasks
 
-- [ ] Implement core behavior and UI flow for story 1.1 (AC: 1+)
-- [ ] Implement validation, edge-case handling, and error feedback (AC: relevant)
-- [ ] Add or update unit and integration tests aligned to acceptance criteria
-- [ ] Verify responsive and accessibility impact where applicable
+- [x] Implement core behavior and UI flow for story 1.1 (AC: 1+)
+- [x] Implement validation, edge-case handling, and error feedback (AC: relevant)
+- [x] Add or update unit and integration tests aligned to acceptance criteria
+- [x] Verify responsive and accessibility impact where applicable
 
 ## Dev Notes
 
@@ -57,14 +57,39 @@ GPT-5 Codex
 
 ### Debug Log References
 
-- N/A
+- `pnpm lint` (pass)
+- `pnpm test` (pass, 4 files / 6 tests)
+- `pnpm build` (pass, `/` + `/lists/[listId]` generated)
 
 ### Completion Notes List
 
-- Story context file generated from updated epic decomposition.
-- Ready for dev-story execution.
+- Initialized Next.js App Router project in `market-list/` using TypeScript + Tailwind + ESLint.
+- Implemented application shell home route (`/`) with baseline navigation and predictable scaffold content.
+- Added dynamic list route scaffold at `/lists/[listId]`.
+- Added global fallback boundaries: `loading.tsx`, `error.tsx`, `not-found.tsx`.
+- Added responsive overflow guard in root shell (`overflow-x-hidden`) and verified shell class coverage.
+- Added route and boundary tests with Vitest + Testing Library.
 
 ### File List
 
-- 1-1-initialize-application-shell-and-navigation-baseline.md
+- market-list/src/app/layout.tsx
+- market-list/src/app/page.tsx
+- market-list/src/app/globals.css
+- market-list/src/app/lists/[listId]/page.tsx
+- market-list/src/app/loading.tsx
+- market-list/src/app/error.tsx
+- market-list/src/app/not-found.tsx
+- market-list/src/app/page.test.tsx
+- market-list/src/app/lists/[listId]/page.test.tsx
+- market-list/src/app/boundaries.test.tsx
+- market-list/src/app/layout.test.tsx
+- market-list/package.json
+- market-list/vitest.config.ts
+- market-list/vitest.setup.ts
+- _bmad-output/implementation-artifacts/1-1-initialize-application-shell-and-navigation-baseline.md
+- _bmad-output/implementation-artifacts/sprint-status.yaml
+
+## Change Log
+
+- 2026-03-06: Implemented Story 1.1 app shell baseline, route scaffolding, fallback boundaries, responsive shell protections, and automated tests.
 

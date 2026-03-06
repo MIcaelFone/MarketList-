@@ -1,4 +1,4 @@
----
+﻿---
 stepsCompleted:
   - 1
   - 2
@@ -105,4 +105,5 @@ Users' lists, items, and budget settings are automatically saved and reliably re
 ### Epic 7: Responsive UI, Accessibility & Polish
 Users can use all core features seamlessly across mobile and desktop devices, with accessible controls and optimized performance.
 **FRs covered:** FR-07, NFR-01, NFR-03
+
 

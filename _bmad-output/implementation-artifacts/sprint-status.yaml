@@ -1,0 +1,87 @@
+﻿# generated: 2026-03-06 17:40:51
+# project: project
+# project_key: NOKEY
+# tracking_system: file-system
+# story_location: {project-root}/_bmad-output/implementation-artifacts
+
+# STATUS DEFINITIONS:
+# ==================
+# Epic Status:
+#   - backlog: Epic not yet started
+#   - in-progress: Epic actively being worked on
+#   - done: All stories in epic completed
+#
+# Epic Status Transitions:
+#   - backlog -> in-progress: Automatically when first story is created (via create-story)
+#   - in-progress -> done: Manually when all stories reach 'done' status
+#
+# Story Status:
+#   - backlog: Story only exists in epic file
+#   - ready-for-dev: Story file created in stories folder
+#   - in-progress: Developer actively working on implementation
+#   - review: Ready for code review (via Dev's code-review workflow)
+#   - done: Story completed
+#
+# Retrospective Status:
+#   - optional: Can be completed but not required
+#   - done: Retrospective has been completed
+#
+# WORKFLOW NOTES:
+# ===============
+# - Epic transitions to 'in-progress' automatically when first story is created
+# - Stories can be worked in parallel if team capacity allows
+# - SM typically creates next story after previous one is 'done' to incorporate learnings
+# - Dev moves story to 'review', then runs code-review (fresh context, different LLM recommended)
+
+generated: '2026-03-06 17:40:51'
+project: 'project'
+project_key: 'NOKEY'
+tracking_system: 'file-system'
+story_location: '{project-root}/_bmad-output/implementation-artifacts'
+
+development_status:
+  epic-1: in-progress
+  1-1-initialize-application-shell-and-navigation-baseline: review
+  1-2-deliver-first-end-to-end-list-creation-and-restore-flow: ready-for-dev
+  1-3-implement-domain-and-validation-baseline: ready-for-dev
+  1-4-implement-store-hydration-and-persistence-infrastructure: ready-for-dev
+  epic-1-retrospective: optional
+
+  epic-2: in-progress
+  2-1-dashboard-page-with-empty-state-and-list-overview: ready-for-dev
+  2-2-create-new-list-via-modal: ready-for-dev
+  2-3-navigate-to-list-detail-page: ready-for-dev
+  2-4-rename-and-delete-list: ready-for-dev
+  epic-2-retrospective: optional
+
+  epic-3: in-progress
+  3-1-add-item-form-with-validation: ready-for-dev
+  3-2-display-items-in-list-with-item-count: ready-for-dev
+  3-3-edit-existing-item: ready-for-dev
+  3-4-remove-item-from-list: ready-for-dev
+  epic-3-retrospective: optional
+
+  epic-4: in-progress
+  4-1-implement-item-subtotal-and-list-total-calculation: ready-for-dev
+  4-2-display-all-monetary-values-in-brl-format-rs: ready-for-dev
+  4-3-real-time-recalculation-on-item-changes: ready-for-dev
+  epic-4-retrospective: optional
+
+  epic-5: in-progress
+  5-1-budget-edit-modal: ready-for-dev
+  5-2-budget-status-calculation: ready-for-dev
+  5-3-dashboard-budget-cards-with-status-indicators: ready-for-dev
+  epic-5-retrospective: optional
+
+  epic-6: in-progress
+  6-1-persist-state-to-localstorage-after-each-mutation: ready-for-dev
+  6-2-hydrate-state-from-localstorage-on-page-load: ready-for-dev
+  6-3-storage-versioning-and-migration-support: ready-for-dev
+  epic-6-retrospective: optional
+
+  epic-7: in-progress
+  7-1-responsive-layouts-for-dashboard-and-list-detail: ready-for-dev
+  7-2-wcag-2-1-aa-accessibility-compliance: ready-for-dev
+  7-3-performance-validation-seo-and-error-loading-states: ready-for-dev
+  epic-7-retrospective: optional
+
